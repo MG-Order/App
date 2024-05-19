@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF117AB72BFA2513000D8C85 /* MG_OrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF117AB62BFA2513000D8C85 /* MG_OrderApp.swift */; };
+		DF117AB92BFA2513000D8C85 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF117AB82BFA2513000D8C85 /* ContentView.swift */; };
+		DF117ABB2BFA2515000D8C85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF117ABA2BFA2515000D8C85 /* Assets.xcassets */; };
+		DF117ABE2BFA2515000D8C85 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF117ABD2BFA2515000D8C85 /* Preview Assets.xcassets */; };
+		DF117AC92BFA2515000D8C85 /* MG_OrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF117AC82BFA2515000D8C85 /* MG_OrderTests.swift */; };
+		DF117AD32BFA2515000D8C85 /* MG_OrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF117AD22BFA2515000D8C85 /* MG_OrderUITests.swift */; };
+		DF117AD52BFA2515000D8C85 /* MG_OrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF117AD42BFA2515000D8C85 /* MG_OrderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF117AC52BFA2515000D8C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF117AAB2BFA2513000D8C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF117AB22BFA2513000D8C85;
+			remoteInfo = "MG-Order";
+		};
+		DF117ACF2BFA2515000D8C85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF117AAB2BFA2513000D8C85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF117AB22BFA2513000D8C85;
+			remoteInfo = "MG-Order";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF117AB32BFA2513000D8C85 /* MG-Order.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MG-Order.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF117AB62BFA2513000D8C85 /* MG_OrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_OrderApp.swift; sourceTree = "<group>"; };
+		DF117AB82BFA2513000D8C85 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF117ABA2BFA2515000D8C85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF117ABD2BFA2515000D8C85 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF117ABF2BFA2515000D8C85 /* MG_Order.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MG_Order.entitlements; sourceTree = "<group>"; };
+		DF117AC42BFA2515000D8C85 /* MG-OrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MG-OrderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF117AC82BFA2515000D8C85 /* MG_OrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_OrderTests.swift; sourceTree = "<group>"; };
+		DF117ACE2BFA2515000D8C85 /* MG-OrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MG-OrderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF117AD22BFA2515000D8C85 /* MG_OrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_OrderUITests.swift; sourceTree = "<group>"; };
+		DF117AD42BFA2515000D8C85 /* MG_OrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MG_OrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF117AB02BFA2513000D8C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117AC12BFA2515000D8C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117ACB2BFA2515000D8C85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF117AAA2BFA2513000D8C85 = {
+			isa = PBXGroup;
+			children = (
+				DF117AB52BFA2513000D8C85 /* MG-Order */,
+				DF117AC72BFA2515000D8C85 /* MG-OrderTests */,
+				DF117AD12BFA2515000D8C85 /* MG-OrderUITests */,
+				DF117AB42BFA2513000D8C85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF117AB42BFA2513000D8C85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF117AB32BFA2513000D8C85 /* MG-Order.app */,
+				DF117AC42BFA2515000D8C85 /* MG-OrderTests.xctest */,
+				DF117ACE2BFA2515000D8C85 /* MG-OrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF117AB52BFA2513000D8C85 /* MG-Order */ = {
+			isa = PBXGroup;
+			children = (
+				DF117AB62BFA2513000D8C85 /* MG_OrderApp.swift */,
+				DF117AB82BFA2513000D8C85 /* ContentView.swift */,
+				DF117ABA2BFA2515000D8C85 /* Assets.xcassets */,
+				DF117ABF2BFA2515000D8C85 /* MG_Order.entitlements */,
+				DF117ABC2BFA2515000D8C85 /* Preview Content */,
+			);
+			path = "MG-Order";
+			sourceTree = "<group>";
+		};
+		DF117ABC2BFA2515000D8C85 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DF117ABD2BFA2515000D8C85 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DF117AC72BFA2515000D8C85 /* MG-OrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF117AC82BFA2515000D8C85 /* MG_OrderTests.swift */,
+			);
+			path = "MG-OrderTests";
+			sourceTree = "<group>";
+		};
+		DF117AD12BFA2515000D8C85 /* MG-OrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF117AD22BFA2515000D8C85 /* MG_OrderUITests.swift */,
+				DF117AD42BFA2515000D8C85 /* MG_OrderUITestsLaunchTests.swift */,
+			);
+			path = "MG-OrderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF117AB22BFA2513000D8C85 /* MG-Order */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF117AD82BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-Order" */;
+			buildPhases = (
+				DF117AAF2BFA2513000D8C85 /* Sources */,
+				DF117AB02BFA2513000D8C85 /* Frameworks */,
+				DF117AB12BFA2513000D8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MG-Order";
+			productName = "MG-Order";
+			productReference = DF117AB32BFA2513000D8C85 /* MG-Order.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF117AC32BFA2515000D8C85 /* MG-OrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF117ADB2BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-OrderTests" */;
+			buildPhases = (
+				DF117AC02BFA2515000D8C85 /* Sources */,
+				DF117AC12BFA2515000D8C85 /* Frameworks */,
+				DF117AC22BFA2515000D8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF117AC62BFA2515000D8C85 /* PBXTargetDependency */,
+			);
+			name = "MG-OrderTests";
+			productName = "MG-OrderTests";
+			productReference = DF117AC42BFA2515000D8C85 /* MG-OrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF117ACD2BFA2515000D8C85 /* MG-OrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF117ADE2BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-OrderUITests" */;
+			buildPhases = (
+				DF117ACA2BFA2515000D8C85 /* Sources */,
+				DF117ACB2BFA2515000D8C85 /* Frameworks */,
+				DF117ACC2BFA2515000D8C85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF117AD02BFA2515000D8C85 /* PBXTargetDependency */,
+			);
+			name = "MG-OrderUITests";
+			productName = "MG-OrderUITests";
+			productReference = DF117ACE2BFA2515000D8C85 /* MG-OrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF117AAB2BFA2513000D8C85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DF117AB22BFA2513000D8C85 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DF117AC32BFA2515000D8C85 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DF117AB22BFA2513000D8C85;
+					};
+					DF117ACD2BFA2515000D8C85 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DF117AB22BFA2513000D8C85;
+					};
+				};
+			};
+			buildConfigurationList = DF117AAE2BFA2513000D8C85 /* Build configuration list for PBXProject "MG-Order" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF117AAA2BFA2513000D8C85;
+			productRefGroup = DF117AB42BFA2513000D8C85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF117AB22BFA2513000D8C85 /* MG-Order */,
+				DF117AC32BFA2515000D8C85 /* MG-OrderTests */,
+				DF117ACD2BFA2515000D8C85 /* MG-OrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF117AB12BFA2513000D8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF117ABE2BFA2515000D8C85 /* Preview Assets.xcassets in Resources */,
+				DF117ABB2BFA2515000D8C85 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117AC22BFA2515000D8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117ACC2BFA2515000D8C85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF117AAF2BFA2513000D8C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF117AB92BFA2513000D8C85 /* ContentView.swift in Sources */,
+				DF117AB72BFA2513000D8C85 /* MG_OrderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117AC02BFA2515000D8C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF117AC92BFA2515000D8C85 /* MG_OrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF117ACA2BFA2515000D8C85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF117AD52BFA2515000D8C85 /* MG_OrderUITestsLaunchTests.swift in Sources */,
+				DF117AD32BFA2515000D8C85 /* MG_OrderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF117AC62BFA2515000D8C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF117AB22BFA2513000D8C85 /* MG-Order */;
+			targetProxy = DF117AC52BFA2515000D8C85 /* PBXContainerItemProxy */;
+		};
+		DF117AD02BFA2515000D8C85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF117AB22BFA2513000D8C85 /* MG-Order */;
+			targetProxy = DF117ACF2BFA2515000D8C85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DF117AD62BFA2515000D8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF117AD72BFA2515000D8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DF117AD92BFA2515000D8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MG-Order/MG_Order.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MG-Order/Preview Content\"";
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-Order";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		DF117ADA2BFA2515000D8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "MG-Order/MG_Order.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MG-Order/Preview Content\"";
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-Order";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DF117ADC2BFA2515000D8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-OrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MG-Order.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MG-Order";
+			};
+			name = Debug;
+		};
+		DF117ADD2BFA2515000D8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-OrderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MG-Order.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MG-Order";
+			};
+			name = Release;
+		};
+		DF117ADF2BFA2515000D8C85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-OrderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MG-Order";
+			};
+			name = Debug;
+		};
+		DF117AE02BFA2515000D8C85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X52UAWWKMX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "dohyeon.MG-OrderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "MG-Order";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF117AAE2BFA2513000D8C85 /* Build configuration list for PBXProject "MG-Order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF117AD62BFA2515000D8C85 /* Debug */,
+				DF117AD72BFA2515000D8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF117AD82BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-Order" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF117AD92BFA2515000D8C85 /* Debug */,
+				DF117ADA2BFA2515000D8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF117ADB2BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-OrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF117ADC2BFA2515000D8C85 /* Debug */,
+				DF117ADD2BFA2515000D8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF117ADE2BFA2515000D8C85 /* Build configuration list for PBXNativeTarget "MG-OrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF117ADF2BFA2515000D8C85 /* Debug */,
+				DF117AE02BFA2515000D8C85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF117AAB2BFA2513000D8C85 /* Project object */;
+}
